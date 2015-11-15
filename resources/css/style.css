@@ -118,6 +118,39 @@ h2:after {
   margin-bottom: 10px;
 }
 
+.icon-small {
+
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+
+    /* ---- Secrets to align text and icons ---- */
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/* ---- LINKS  ---- */
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+
 /* ---- BUTTONS  ---- */
 
 .btn:link,
@@ -208,10 +241,14 @@ header {
   transition: border-bottom 0.2s;
 }
 
-.main-nav li a:hover,
+
+/* ---- I have commented this out as the code is now redundant,
+    leaving it hear though encase we further down the poject and we neeed it again ---- */
+
+/*.main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
-}
+}*/
 
 /* ------------------------------------------- */
 /* FEATURES */
@@ -304,8 +341,27 @@ header {
     margin-right: 25px;
 }
 
-btn-app img {
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
     height: 50px;
     width: auto;
     margin-right: 10px;
+}
+
+/* ------------------------------------------- */
+/* MEALS */
+/* ------------------------------------------- */
+
+.section-cities img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-features {
+    margin-bottom: 5px;
 }
