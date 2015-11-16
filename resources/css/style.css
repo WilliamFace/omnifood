@@ -187,8 +187,8 @@ a:active {
   margin-right: 15px;
 }
 
-.btn-ghost:link,
-.btn-ghost:visited {
+.btn-ghost:hover,
+.btn-ghost:active {
   border: 1px solid #cf6d17;
   color: #fff;
 }
